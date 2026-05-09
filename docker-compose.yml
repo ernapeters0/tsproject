@@ -1,8 +1,0 @@
-services:
-  tunnel:
-    image: ghcr.io/therealaleph/mhrv-tunnel-node:latest
-    restart: unless-stopped
-    ports:
-      - "8080:8080"
-    environment:
-      TUNNEL_AUTH_KEY: ${TUNNEL_AUTH_KEY}
