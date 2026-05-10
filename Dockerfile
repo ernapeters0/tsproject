@@ -7,4 +7,5 @@ USER tunnel
 ENV PORT=8080
 ENV TUNNEL_AUTH_KEY='YtBHKSE3731248Hfr'
 EXPOSE 8080
-ENTRYPOINT ["./entry_point.sh"]
+ENTRYPOINT ["tunnel-node"]
+CMD ["./entry_point.sh"]
