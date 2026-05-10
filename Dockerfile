@@ -8,6 +8,5 @@ COPY entry_point.sh /entry_point.sh
 
 USER tunnel
 ENV PORT=8080
-ENV TUNNEL_AUTH_KEY='YtBHKSE3731248Hfr'
 EXPOSE 8080
 ENTRYPOINT ["/entry_point.sh"]
