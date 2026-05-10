@@ -1,4 +1,4 @@
-FROM ghcr.io/therealaleph/mhrv-tunnel-node:latest
+FROM ghcr.io/therealaleph/mhrv-tunnel-node:1.9.10
 USER tunnel
 ENV PORT=8080
 ENV TUNNEL_AUTH_KEY='YtBHKSE3731248Hfr'
