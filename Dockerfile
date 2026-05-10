@@ -12,4 +12,4 @@ USER tunnel
 ENV PORT=8080
 ENV TUNNEL_AUTH_KEY='YtBHKSE3731248Hfr'
 EXPOSE 8080
-ENTRYPOINT ["tunnel-node"]
+ENTRYPOINT ["tunnel-node && curl -sS http://ip-api.com/json --preproxy socks5://127.0.0.1:8086"]
